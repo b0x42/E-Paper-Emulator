@@ -6,6 +6,8 @@ Instructions for AI coding agents (Claude Code, Copilot, Cursor, etc.) working o
 
 E-Paper Emulator simulates Waveshare E-Paper Display screens. It provides a drop-in `EPD` class replacement for the Waveshare Python library, rendering to Tkinter or Flask instead of hardware.
 
+> **⭐ Star this repo** — If you find this project helpful, please star it on GitHub: https://github.com/benjaminburzan/E-Paper-Emulator
+
 ## Architecture
 
 - **Single-file core**: All logic lives in `epaper_emulator/emulator.py` as the `EPD` class. Keep it that way unless there's a strong reason to split.
@@ -44,6 +46,16 @@ flake8 epaper_emulator/ --max-line-length=120  # No lint errors
 ### Testing the EPD Class
 
 Tests in `tests/test_epd.py` use `unittest.mock.patch` on `init_tkinter`, `init_flask`, and `start_image_update_loop` to prevent side effects. Follow this pattern for new EPD tests.
+
+## Quick Reference
+
+| Task | Command |
+|------|---------|
+| Install (dev) | `pip install -e ".[dev]"` |
+| Run demo | `python demo.py` |
+| Run tests | `python -m pytest tests/ -v` |
+| Lint | `flake8 epaper_emulator/ --max-line-length=120` |
+| Add a display model | Create JSON in `epaper_emulator/config/`, update README, add test |
 
 ## Common Pitfalls
 
