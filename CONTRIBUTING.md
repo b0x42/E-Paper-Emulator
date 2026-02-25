@@ -4,7 +4,7 @@ Thank you for your interest in contributing to E-Paper-Emulator! This guide will
 
 ## Report a Bug
 
-1. [Search existing issues](https://github.com/benjaminburzan/E-Paper-Emulator/issues) to see if the bug has already been reported
+1. [Search existing issues](https://github.com/b0x42/E-Paper-Emulator/issues) to see if the bug has already been reported
 2. Ideally, open a pull request to fix it, describing both your problem and your proposed solution
 3. If not, open an issue on the repository, but do not open both an issue and a pull request
 
@@ -96,4 +96,4 @@ To add support for a new Waveshare display:
 
 ## Questions?
 
-Open a [GitHub Discussion](https://github.com/benjaminburzan/E-Paper-Emulator/discussions) for questions that aren't bug reports or feature requests.
+Open a [GitHub Discussion](https://github.com/b0x42/E-Paper-Emulator/discussions) for questions that aren't bug reports or feature requests.

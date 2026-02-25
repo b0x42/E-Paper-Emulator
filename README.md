@@ -33,7 +33,7 @@ A drop-in replacement for the Waveshare E-Paper Display (EPD) Python library tha
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/benjaminburzan/E-Paper-Emulator.git
+git clone https://github.com/b0x42/E-Paper-Emulator.git
 cd E-Paper-Emulator
 ```
 

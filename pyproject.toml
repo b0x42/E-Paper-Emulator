@@ -36,9 +36,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/benjaminburzan/E-Paper-Emulator"
-Repository = "https://github.com/benjaminburzan/E-Paper-Emulator"
-Issues = "https://github.com/benjaminburzan/E-Paper-Emulator/issues"
+Homepage = "https://github.com/b0x42/E-Paper-Emulator"
+Repository = "https://github.com/b0x42/E-Paper-Emulator"
+Issues = "https://github.com/b0x42/E-Paper-Emulator/issues"
 
 [tool.setuptools.packages.find]
 include = ["epaper_emulator*"]
