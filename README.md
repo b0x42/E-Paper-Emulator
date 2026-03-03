@@ -5,10 +5,10 @@
 [![Flask](https://img.shields.io/badge/Flask-Web%20Server-lightgrey.svg)](https://flask.palletsprojects.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-A drop-in replacement for the Waveshare E-Paper Display (EPD) Python library that renders to a Tkinter window or Flask web server instead of hardware. Develop, test, and demo e-paper UIs on any machine — no display module required. Supports 21+ models in color and monochrome.
+A drop-in replacement for the Waveshare E-Paper Display (EPD) Python library that renders to a Tkinter window or Flask web server instead of hardware. Develop, test, and demo e-paper UIs on any machine — no display module required. Supports 37+ models in color and monochrome.
 
 - **Drop-in Replacement**: Use the same API as the Waveshare EPD library for seamless development
-- **21+ EPD Models**: Pre-configured JSON files for a wide range of Waveshare displays
+- **37+ EPD Models**: Pre-configured JSON files for a wide range of Waveshare displays
 - **Dual Rendering Modes**: Tkinter (native GUI window) or Flask (web-based, accessible via browser)
 - **Color and Monochrome**: Simulate both color and monochrome e-paper displays
 - **Drawing API**: Text, rectangles, lines, ellipses, and image pasting
@@ -124,27 +124,43 @@ Each display model is defined by a JSON file in `epaper_emulator/config/`:
 
 | Model | Resolution | Size |
 |-------|-----------|------|
+| `epd1in02` | 128x80 | 1.02" |
 | `epd1in54` | 200x200 | 1.54" |
-| `epd2in7` | 176x264 | 2.7" |
-| `epd2in9` | 128x296 | 2.9" |
+| `epd1in54b` | 200x200 | 1.54" (B, red/black/white) |
+| `epd1in54c` | 152x152 | 1.54" (C, yellow/black/white) |
 | `epd2in13` | 122x250 | 2.13" |
 | `epd2in13bc` | 122x250 | 2.13" (B/C) |
 | `epd2in13d` | 104x212 | 2.13" (D) |
 | `epd2in13v2` | 122x250 | 2.13" (V2) |
-| `epd2in66` | 152x296 | 2.66" |
-| `epd3in52` | 240x360 | 3.52" |
+| `epd2in66` | 296x152 | 2.66" |
+| `epd2in7` | 176x264 | 2.7" |
+| `epd2in9` | 128x296 | 2.9" |
+| `epd2in9b` | 128x296 | 2.9" (B, red/black/white) |
+| `epd3in52` | 320x320 | 3.52" |
 | `epd3in7` | 280x480 | 3.7" |
 | `epd4in2` | 400x300 | 4.2" |
+| `epd4in2b` | 400x300 | 4.2" (B, red/black/white) |
+| `epd4in26` | 800x480 | 4.26" |
 | `epd4in3` | 800x600 | 4.3" |
-| `epd5in65` | 600x448 | 5.65" |
+| `epd5in65` | 600x448 | 5.65" (F, 7-color) |
+| `epd5in79` | 792x272 | 5.79" |
+| `epd5in79b` | 792x272 | 5.79" (B, red/black/white) |
 | `epd5in83` | 600x448 | 5.83" |
 | `epd6in0` | 800x600 | 6.0" |
-| `epd6in2` | 800x480 | 6.2" |
+| `epd6in2` | 640x384 | 6.2" |
+| `epd7in3f` | 800x480 | 7.3" (F, 7-color ACeP) |
 | `epd7in5` | 800x480 | 7.5" |
+| `epd7in5b` | 800x480 | 7.5" (B, red/black/white) |
+| `epd7in5hd` | 880x528 | 7.5" HD |
+| `epd7in8` | 1872x1404 | 7.8" |
 | `epd9in7` | 1200x825 | 9.7" |
+| `epd10in2g` | 960x640 | 10.2" (G, color) |
 | `epd10in3` | 1872x1404 | 10.3" |
 | `epd11in6` | 960x640 | 11.6" |
 | `epd12in48` | 1304x984 | 12.48" |
+| `epd13in3` | 1600x1200 | 13.3" |
+| `epd13in3b` | 960x680 | 13.3" (B, red/black/white) |
+| `epd13in3k` | 960x680 | 13.3" (K) |
 
 
 ## File Structure
