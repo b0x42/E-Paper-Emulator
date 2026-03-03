@@ -1,0 +1,7 @@
+{
+    "name": "epd10in2g",
+    "width": 960,
+    "height": 640,
+    "color": "white",
+    "text_color": "black"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "epd13in3",
+    "width": 1600,
+    "height": 1200,
+    "color": "white",
+    "text_color": "black"
+}
